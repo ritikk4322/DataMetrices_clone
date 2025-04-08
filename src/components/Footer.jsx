@@ -17,40 +17,76 @@ function Footer() {
         width: "100%",
       }}
     >
-      <div className="container-fluid px-5">
-        <div className="row row-cols-1 row-cols-md-4 text-white">
-          <div className="col m-5 fs-4 fw-bold p-1">
-            <img
-              src={logo}
-              alt="Company Logo"
-              width="250"
-              height="80"
-              className="mb-3"
-            />
+      <div className="container  px-4">
+        {/* <div className="row row-cols-1 row-cols-md-4 text-white"> */}
+        <div className="row text-white g-4 py-5">
+          {/* <div className="col m-5 fs-4 fw-bold p-1"> */}
+          <div className="col p-3 fs-4 fw-bold">
+            <img src={logo} alt="Company Logo" width="350" height="80" />
             <h5 className="fs-3 fw-bold">Reach Out to Us at</h5>
 
             <h4>Head Office (India):</h4>
-            <p className="fw-400 fs-16" style={{ color: "rgb(178, 178, 178)" }}>
-              <CiLocationOn /> ITHUM TOWER, Block A, Industrial Area, Sector 62,
-              Noida, Uttar Pradesh 201309;
-            </p>
-            <p className="fw-400 fs-16" style={{ color: "rgb(178, 178, 178)" }}>
-              <CgMail /> contact@datametricks.com
-            </p>
-            <p className="fw-400 fs-16" style={{ color: "rgb(178, 178, 178)" }}>
-              <IoCallOutline /> +91 73039 46657
-            </p>
+            <div className="para">
+              <p
+                style={{
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  color: "rgb(178, 178, 178)",
+                }}
+              >
+                <CiLocationOn /> ITHUM TOWER, Block A, Industrial Area, Sector
+                62, Noida, Uttar Pradesh 201309
+              </p>
+              <p
+                style={{
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  color: "rgb(178, 178, 178)",
+                }}
+              >
+                <CgMail /> contact@datametricks.com
+              </p>
+              <p
+                style={{
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  color: "rgb(178, 178, 178)",
+                }}
+              >
+                <IoCallOutline /> +91 73039 46657
+              </p>
+            </div>
 
             <h4>Regional Office (Europe):</h4>
-            <p className="fw-400 fs-16" style={{ color: "rgb(178, 178, 178)" }}>
-              <CiLocationOn /> Vanåsgatan 132, 216 20 Malmö, Sweden
-            </p>
-            <p className="fw-400 fs-16" style={{ color: "rgb(178, 178, 178)" }}>
-              <CgMail /> contact@datametricks.com
-            </p>
-            <p className="fw-400 fs-16" style={{ color: "rgb(178, 178, 178)" }}>
-              <IoCallOutline /> +46 73 610 97 57
-            </p>
+            <div className="para">
+              <p
+                style={{
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  color: "rgb(178, 178, 178)",
+                }}
+              >
+                <CiLocationOn /> Vanåsgatan 132, 216 20 Malmö, Sweden
+              </p>
+              <p
+                style={{
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  color: "rgb(178, 178, 178)",
+                }}
+              >
+                <CgMail /> contact@datametricks.com
+              </p>
+              <p
+                style={{
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  color: "rgb(178, 178, 178)",
+                }}
+              >
+                <IoCallOutline /> +46 73 610 97 57
+              </p>
+            </div>
 
             <button
               type="button"
@@ -109,9 +145,9 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="col my-4 fs-4">
+          <div className="col my-4 fs-4 text-end">
             <h5 className="fs-3 fw-bold">Follow Us</h5>
-            <ul className="nav flex-column">
+            <ul className="nav flex-column test start">
               {[
                 { icon: <FaLinkedin />, name: "LinkedIn" },
                 { icon: <FaSquareInstagram />, name: "Instagram" },
@@ -130,8 +166,8 @@ function Footer() {
 
         <hr className="h-1 mx-auto" style={{ color: "white", width: "94%" }} />
         <p
-          className="fs-16 text-center"
-          style={{ color: "rgb(249, 244, 244)" }}
+          className="text-center"
+          style={{ color: "white", fontSize: "16px", marginTop: "1rem" }}
         >
           © DataMetricks Consulting Pvt. Ltd. 2024
         </p>

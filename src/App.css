@@ -75,3 +75,6 @@ body, html {
 .toggle-btn1:hover {
   color: rgb(0, 83, 154);
 }
+.para p{
+  text-align: left;
+}
