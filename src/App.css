@@ -4,8 +4,8 @@ body, html {
   width: 100%;
   min-height: 100vh;
   font-family: 'Arial', sans-serif;
-  background-color: #f8f9fa; /* Light gray background */
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  background-color: #f8f9fa;
+  overflow-x: hidden; 
 }
 .location {
   font-size: 15px;
@@ -20,12 +20,12 @@ body, html {
   box-shadow: none;
   padding-top: 5px;
   padding-bottom: 8px;
-  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+  transition: background-color 0.3s ease-in-out; 
 }
 
 .downloadbutton:hover {
-  background-color: blue; /* Change color to blue on hover */
-  color: white; /* Optional: Change text color for better contrast */
+  background-color: blue; 
+  color: white; 
 }
 .faq-qa {
   background: white;

@@ -20,7 +20,6 @@ function App() {
 
       <div>
         <div className="position-relative overflow-hidden text-center bg-body-tertiary">
-          {/* Background Video */}
           <video
             className=" w-100  "
             autoPlay
@@ -79,10 +78,7 @@ function App() {
             <p className="fw-bold fs-30 text-dark">Why We're Different</p>
           </div>
         </div>
-
-        {/* Main Card Container */}
         <div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-          {/* Card 1 */}
           <div className="col">
             <div className="card shadow-lg rounded-3 p-3 h-100">
               <div className="card-body text-left">
@@ -130,87 +126,44 @@ function App() {
           </div>
         </div>
       </div>
-
-      {/*Digital marketing process*/}
-
-      {/* <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-11 text-left">
-            <p className="fw-bold fs-30 text-dark">Digital Marketing Process</p>
-          </div>
-        </div>
-        <div className="d-flex justify-content-center align-items-left">
-          <div>
-            <h3>1. Discovery and Goal setting</h3>
-            <p>
-              <ul>
-                <li>
-                  understand the client's business, industry, and objectives
-                </li>
-                <li>
-                  Identify the target audience, key comprtitors, and current
-                  digital presence.
-                </li>
-              </ul>
-            </p>
-          </div>
-          <div>
-            <h3>3. Discovery and Goal setting</h3>
-            <p>
-              <ul>
-                <li>
-                  understand the client's business, industry, and objectives
-                </li>
-                <li>
-                  Identify the target audience, key comprtitors, and current
-                  digital presence.
-                </li>
-              </ul>
-            </p>
-          </div>
-        </div>
-      </div> */}
-
-      {/* image box */}
       <div>
-  <div className="row featurette">
-    {/* Left-aligned Text Section */}
-    <div className="col-md-7 order-md-2 d-flex align-items-start text-start ps-5">
-      <div className="pt-4">
-        <h2 className="featurette-heading fw-bold mt-3">
-          Ready to Grow Your Business?
-        </h2>
-        
-        <p className="lead pt-3 ms-2 text-start">
-          Let's build your digital presence together. Whether you need a
-          full-service digital marketing partner or help with a specific
-          aspect of your strategy, we're here to help.
-        </p>
-        <p className="lead ms-2 text-start">
-          Contact us today for a free consultation and start your journey
-          to digital success!
-        </p>
-        
-      <h3>Gets Started Today !</h3>
-      <button className="btn btn-danger">Book a free Counsultation</button>
+        <div className="row featurette">
+          <div className="col-md-7 order-md-2 d-flex align-items-start text-start ps-5">
+            <div className="pt-4">
+              <h2 className="featurette-heading fw-bold mt-3">
+                Ready to Grow Your Business?
+              </h2>
+              <p className="lead pt-3 ms-2 text-start">
+                Let's build your digital presence together. Whether you need a
+                full-service digital marketing partner or help with a specific
+                aspect of your strategy, we're here to help.
+              </p>
+              <p className="lead ms-2 text-start">
+                Contact us today for a free consultation and start your journey
+                to digital success!
+              </p>
+
+              <h3>Gets Started Today !</h3>
+              <button className="btn btn-danger">
+                Book a free Counsultation
+              </button>
+            </div>
+          </div>
+
+          <div className="col-md-5 order-md-1 d-flex align-items-center justify-content-center">
+            <img
+              src={photo2}
+              alt="Feature Image"
+              className="featurette-image img-fluid mx-auto"
+              width="450"
+              height="400"
+            />
+          </div>
+        </div>
       </div>
-    </div>
 
-    {/* Image Section */}
-    <div className="col-md-5 order-md-1 d-flex align-items-center justify-content-center">
-      <img
-        src={photo2}
-        alt="Feature Image"
-        className="featurette-image img-fluid mx-auto"
-        width="450"
-        height="400"
-      />
-    </div>
-  </div>
-</div>
-
-<Enqueryforms/>
-<Question/>
+      <Enqueryforms />
+      <Question />
 
       <Footer />
     </div>
